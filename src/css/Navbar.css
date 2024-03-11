@@ -1,0 +1,10 @@
+.navbar {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin: 0 auto; /* Centra horizontalmente */
+    background-color: #CED89E !important;  /* Color de fondo */ 
+    
+    
+}
