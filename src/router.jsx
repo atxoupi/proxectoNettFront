@@ -1,12 +1,17 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import { Principal } from "./pages/principal";
+import { Events } from "./pages/events";
 
 export const router = createBrowserRouter([
     {
       path: "/",
       element: <Principal />,
     },
+    {
+        path: "/events",
+        element: <Events />,
+      },
     {
         path: "/aboutMe",
         element: <div>Sobre mi</div>,

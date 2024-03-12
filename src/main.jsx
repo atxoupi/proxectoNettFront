@@ -7,10 +7,14 @@ import {
 } from "react-router-dom";
 import {router} from './router'
 import './index.css'
+import { store } from './app/store'
+import { Provider } from 'react-redux'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Navbar />
-    <RouterProvider router={router} />
+    <Provider store={store}>
+      <Navbar />
+      <RouterProvider router={router} />
+    </Provider>
   </React.StrictMode>,
 )

@@ -4,7 +4,7 @@
     left: 0;
     width: 90%;
     margin: 0 auto; /* Centra horizontalmente */
-    background-color: #CED89E !important;  /* Color de fondo */ 
+    background: linear-gradient(#CED89E,#ced6a4,#CED89E) !important;  /* Color de fondo */ 
     
     
 }
