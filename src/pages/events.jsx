@@ -20,17 +20,15 @@ if (eventsStatus === 'loading') {
     content = <div className="loader">Loading...</div>;
 } else if (eventsStatus === 'succeeded') {
     content = events.data;
-    // content = eventsArray.map((event) => <Event key={event.id} event={event} />);
-    // content = <div>{JSON.stringify(events)}</div>;
     const eventItems = content.map((item) => <Event key={item.id} id={item.id} />);
-    content = <div>{eventItems}</div>;
+    content = <div className='d-flex justify-content-between row'>{eventItems}</div>;
 } else if (eventsStatus === 'failed') {
     content = <div>{error}</div>;
 }
 
   return (
     <section>
-      <h2>Events</h2>
+      <h2>Eventos</h2>
       {content}
     </section>
   );
