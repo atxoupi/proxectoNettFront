@@ -14,7 +14,6 @@
 .contenedor {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 80%;
     height: auto;
@@ -29,7 +28,7 @@
 
 .principalBody{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 90px;
@@ -37,6 +36,22 @@
     width: 90%;
     height: 90%;
 }
+.image-container {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  }
+  @media (min-width: 768px) {
+    .principalBody {
+      flex-direction: row; 
+      align-items: center; 
+    }
+  
+    .image-container {
+        margin-top: 0; 
+        margin-left: 20px;
+    }
+  }
+
 #presentation{
     width: 100%;
     height: 100%;

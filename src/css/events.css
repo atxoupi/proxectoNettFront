@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.eventsCardGrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}

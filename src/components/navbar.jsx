@@ -25,10 +25,10 @@ function Navbar() {
                     <a className="nav-link" href="/events">Eventos</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Contacto</a>
+                    <a className="nav-link" href="/contact">Contacto</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Admin</a>
+                    <a className="nav-link" href="/admin" >Admin</a>
                     </li>
                 </ul>
                 </div>

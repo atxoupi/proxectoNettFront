@@ -2,6 +2,9 @@ import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import { Principal } from "./pages/principal";
 import { Events } from "./pages/events";
+import { Services } from "./pages/services";
+import { Contact } from "./pages/contact";
+import Admin from "./pages/admin";
 
 export const router = createBrowserRouter([
     {
@@ -18,14 +21,14 @@ export const router = createBrowserRouter([
       },
     {
         path: "/services",
-        element: <div>Servicios</div>,
+        element: <Services />,
       },
     {
         path: "/contact",
-        element: <div>Contacto</div>,
+        element: <Contact />,
     },
     {
         path: "/admin",
-        element: <div>Admin</div>,
+        element: < Admin />,
     },
   ]);

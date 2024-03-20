@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchEvents } from '../features/events/eventsSlice';
 import { Event } from '../components/event';
+import '../css/events.css';
 
 export const Events = () => {
   const dispatch = useDispatch();
@@ -27,8 +28,7 @@ if (eventsStatus === 'loading') {
 }
 
   return (
-    <section>
-      <h2>Eventos</h2>
+    <section className='eventsCardGrid'>
       {content}
     </section>
   );
