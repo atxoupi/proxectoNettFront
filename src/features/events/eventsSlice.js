@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const fetchEvents = createAsyncThunk('events/fetchEvents', async () => {
     try {
-      const response = await axios.get('http://127.0.0.1:8000/api/events', {
+      const response = await axios.get('https://andres.v2.proyectosdwa.es/api_proyecto/public/api/events', {
         headers: {
           'Accept': 'application/vnd.api+json',
         },

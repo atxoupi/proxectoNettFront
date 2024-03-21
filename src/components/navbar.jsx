@@ -28,7 +28,7 @@ function Navbar() {
                     <a className="nav-link" href="/contact">Contacto</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="/admin" >Admin</a>
+                    <a className="nav-link disabled" href="/admin" >Admin</a>
                     </li>
                 </ul>
                 </div>
